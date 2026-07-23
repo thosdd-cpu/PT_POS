@@ -1,4 +1,4 @@
-import { ... } from '../../../lib/redis'
+import { ... } from '@/lib/redis'
 import { ... } from '../../../lib/auth'
 import { NextResponse } from "next/server";
 
