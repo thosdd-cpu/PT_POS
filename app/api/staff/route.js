@@ -1,6 +1,5 @@
-import { ... } from '@/lib/redis'
-import { ... } from '../../../lib/auth'
-import { NextResponse } from "next/server";
+import { redis } from "@/lib/redis";
+import { hashPassword, verifyPassword } from "@/lib/auth";
 
 async function checkAdmin(req) {
   const adminPassword = req.headers.get("x-admin-password") || "";
