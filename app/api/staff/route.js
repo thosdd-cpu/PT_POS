@@ -1,5 +1,5 @@
-import { redis } from "@/lib/redis";
-import { hashPassword, verifyPassword } from "@/lib/auth";
+import { redis } from "../../../lib/redis";
+import { hashPassword, verifyPassword } from "../../../lib/auth";
 import { NextResponse } from "next/server";
 
 async function checkAdmin(req) {
